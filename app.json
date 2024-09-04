@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "MedDigitalTwin",
+    "slug": "MedDigitalTwin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/banner.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.david.faceRec"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "45383799-6391-4d38-a591-c02f9e8e10c6"
+      }
+    }
+  }
+}
