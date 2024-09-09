@@ -6,6 +6,7 @@ import DashboardScreen from "./DashboardScreen";
 import NotificationsScreen from "./NotificationsScreen";
 import HealthMetricsScreen from "./HealthMetricsScreen";
 import ProfileScreen from "./ProfileScreen";
+import ResultsScreen from "./ResultsScreen";
 
 const Tab = createBottomTabNavigator();
 
@@ -56,6 +57,11 @@ const BottomTab = () => {
         options={{ headerShown: false }}
         name="Notifications"
         component={NotificationsScreen}
+      />
+      <Tab.Screen
+        options={{ headerShown: false }}
+        name="Results"
+        component={ResultsScreen}
       />
     </Tab.Navigator>
   );
